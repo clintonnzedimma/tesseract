@@ -1,0 +1,35 @@
+About Tesseract
+
+Hotel Management System
+
+Program Version: 1.0.0.1
+
+Copyright © 2016-2018 Clinton Nzedimma, Novacom Webs Nigeria( www.novacomng.com). All rights reserved 
+Tesseract Hotel Managment System is registered under MIT licence
+
+Credits:
+
+Clinton Nzedimma - Lead Developer
+Paul Princewill - Associate Lead Developer
+Bobby Nzedimma - Systems Designer
+Nana Perfect - Project Manager
+Oboko Emma - Associate Project Manager
+Doye Solomon - Associate Consultant
+Prince Ekemini Darlington - Systems Consultant
+In Gratitude to:
+Ejaita Okpako, PhD
+Rita Ako, PhD
+Joseph Jakpa Croft Ecosystems
+Kelly Idehen Linkorion Technology
+Fejiro Otokutu
+Apeh Stephen
+This product uses the following components 
+
+PHPDesktop © Czarek Tomczak
+SQLite, in public domain
+Chromium Embedded Framework licensed under the BSD 3-clause license.
+ChartJs Of MIT licence
+PHP Software licensed under the PHP License 3.0.1.
+JSON parser licensed under the BSD 2-clause license.
+Mongoose webserver revision 04fc209 licensed under the MIT license.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE

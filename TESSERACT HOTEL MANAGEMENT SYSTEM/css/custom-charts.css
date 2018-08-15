@@ -1,0 +1,16 @@
+/**
+*	@author Clinton Nzedimma (c) Novacom Webs Nigeria 2018
+*	@package  Tesseract Hotel Management System
+*	@subpackage GUI
+*/
+div.chart_holder{
+	 width: 70%;
+	  background: #fff; 
+	  border:1px solid #e5e5e5;
+	   margin-top: 10px; 
+	   box-shadow: #e5e5e5 1px 1px 1px 1px;
+}
+
+canvas.chart_itself {
+	color: #fff; height: 350px;
+}

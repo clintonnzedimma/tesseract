@@ -1,0 +1,40 @@
+/**
+*	@author Clinton Nzedimma (c) Novacom Webs Nigeria 2018
+*	@package  Tesseract Hotel Management System
+*	@subpackage GUI
+*/
+
+
+[room-state=VACANT] {
+	background: #2dcc70;
+}
+
+[room-state=RESERVED] {
+	
+	background: #f4d80f;
+
+}	
+
+[room-state=LODGED] {
+	background: #f7534a;
+}
+
+
+[guest-status=CHECKED-IN] {
+	background: #2dcc70;
+}
+
+[guest-status=CHECKED-OUT] {
+	background: #f7534a;
+}
+
+
+
+
+[PHPtoJS] {
+	/*Helps in helps in feeding PHP data to Javascript file, The value must be echoed in PHP and used as .text or .html  in Javascript*/
+	display: none;
+	
+} 
+
+	

@@ -1,0 +1,468 @@
+/**
+*	@author Clinton Nzedimma (c) Novacom Webs Nigeria 2018
+*	@package  Tesseract Hotel Management System
+*	@subpackage GUI
+*/
+
+
+html.modal {
+width: 100%;
+}
+
+html.green-back {
+	background: linear-gradient(#15bd9c, #15c19f, #15c8a4);
+}
+
+html.blue-back {
+	background: #149ac0;
+}
+
+.modal-top-bar {
+	width: 100%;
+	background: #15bd9c;
+	color: white;
+	margin-top: 0px;
+	top: 0px;
+}
+
+.logo-watermark {
+	float: right;
+	left: 87%;
+	background:#8a8d7a;
+	width: 13%;
+	position: fixed;
+	top:93%;
+	background: #36424c url(img/floral-2.png);
+	opacity: 0.6;
+	cursor: pointer;
+	margin-top: 8px;
+}
+
+.logo-watermark img {
+	width: 100%;
+}
+
+.modal-top-bar h1.window-name {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color:#e8fdf9;	
+	font-size: 20px;
+ 	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;	
+}
+
+
+/* 
+*	@author Clinton Nzedimma
+*	@window MANAGE ROOMS
+*/
+
+.manage-rooms-nav {
+	background: #43453a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.manage-rooms-nav a {
+	color:#fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	font-size: 14px;	
+}
+
+.manage-rooms-nav a:hover {
+	background: #35362e;
+}
+
+.manage-rooms-ERRORS {
+	color: red;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.manage-rooms-SUCCESS {
+	color:#00ce00 ;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.add-rooms, .view-rooms, .edit-rooms{
+	margin-left:20px; 
+	background:white;
+	width: 80%;
+	padding-bottom: 5%;
+	margin-top: 2%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #e5e5e5;
+}
+
+.view-rooms{
+	width: 90%;
+}
+
+.view-rooms a{
+	color:#1ab9c3;
+	text-decoration: none;
+}
+
+.view-rooms div.inner, .edit-rooms div.inner{
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+.view-rooms div.inner table {
+	width: 100%;
+	color: #47493f;
+	padding: 0px;
+}
+.view-rooms div.inner tr.fields {
+	color: white;
+	background: #1ab9c3;
+}
+
+.view-rooms div.inner tr.records {
+	font-size: 15px;
+}
+
+.view-rooms div.inner th:nth-child(odd) {
+	border-right:1px solid #159ca4; 
+}
+
+.view-rooms div.inner th:nth-child(even) {
+	border-right:1px solid #159ca4; 
+}
+
+.view-rooms div.inner th:nth-child(7) {
+	border-left:0px solid #159ca4; 
+}
+
+.view-rooms div.inner tr:nth-child(even) {
+	background: #eeeeee;
+}
+
+.view-rooms div.inner table span#currency-sign {
+	font-weight: 700;
+	color: #15bd9c;
+	margin-right: 2px;
+}
+
+.view-rooms div.inner input[name=room-delete-submit] {
+}
+
+.add-rooms div.heading-text, .view-rooms div.heading-text, .edit-rooms div.heading-text{
+	background: #1ab9c3;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color:white;
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.add-rooms div.heading-text h1, .view-rooms div.heading-text h1 {
+	font-weight: 100;
+}
+
+.add-rooms div.inner{
+	color: #6b6d5c;
+	margin-left:  50px;
+
+}
+
+.add-rooms div.inner b.currency{
+	margin-left: 20px;
+	font-weight: 800;
+	color:#1ab9c3;
+	font-size:30px;
+}
+
+.add-rooms div.inner input{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	font-size:30px;
+	color:#505245;
+	border-radius: 0px;
+	border:0px;
+	border-bottom: 1px solid #1ab9c3;	
+	font-weight: 100;
+}
+.add-rooms div.inner input[type=text], .add-rooms div.inner input[type=number] {
+	font-size:24px;
+	padding: 5px;
+}
+
+
+.add-rooms div.inner input[name=room_number] {
+	width: 200px;
+}
+
+.add-rooms div.inner input[name=room_type] { 
+	font-weight: 100;
+	font-size: 19px;
+	width: 80%;
+}
+
+.add-rooms div.inner input[name=room_price] {
+	width: 200px;
+	color:  #428400;
+}
+
+.add-rooms div.inner input[type=submit], .view-rooms div.inner input[name=room-delete-submit]  {
+	color:white;
+	background:#1ab9c3;
+	border: none;
+	font-size: 25px;
+	padding: 10px;
+	width: 70%;
+	border-radius: 0px;
+}
+
+.add-rooms div.inner input[type=submit]:hover, .view-rooms div.inner input[name=room-delete-submit]:hover {
+	background:#15979d;
+}
+
+.view-rooms div.inner input[name=room-delete-submit]  {
+	width: 40%;
+	margin-top: 20px;
+}
+
+
+.create-reservation-window {
+	background: #fff;
+	width: 90%;
+	color: #44463c;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 2px #e5e5e5;
+
+}
+
+.create-reservation-window input[type=text], .create-reservation-window input[type=tel], .create-reservation-window input[type=date], .create-reservation-window input[type=number] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	border: 1px solid #dadada;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #44463c;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+
+.create-reservation-window input[type=number]::-webkit-inner-spin-button, 
+.create-reservation-window input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	margin: 0;
+}
+.create-reservation-window input[name=home_address] {
+	width: 60%;
+}
+
+.create-reservation-window input[name=occupation] {
+	width: 36%;
+}
+.create-reservation-window select{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	border: 1px solid #dadada;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #44463c;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.create-reservation-window form {
+	font-size: 12px;
+}
+.create-reservation-window form div.inner {
+	display: flex;
+}
+.create-reservation-window form span.field {
+	width: 10%;
+	margin-right:10px; 
+	font-size: 14px;
+}
+
+.create-reservation-window form div.right-side {
+	 flex:1;
+}
+
+.create-reservation-window form div.left-side {
+	flex:1;
+}
+/*
+***MANAGE ROOMS ENDS HERE
+*/
+
+
+
+/* 
+*	@author Clinton Nzedimma
+*	@window MANAGE GUEST
+*/
+
+ body.manage-guest {
+ 	background: #fff;
+ 	width: 65%;
+ 	margin:15px auto; 
+ 	padding-bottom: 3px;
+ 	border-radius: 5px;
+ }
+
+ body.manage-guest div.top{
+ 	background: #ffeecc;
+ 	padding-top: 2px;
+ 	padding-bottom: 10px;
+ 	font-family:  "Segoe UI";
+ 	border-top-right-radius: 5px;
+ 	border-top-left-radius: 5px;
+ 	color: #45473d;
+ 	border-bottom: 0px solid #f0f0f0; 
+ }
+
+ body.manage-guest div.top span#full_name {
+ 	font-size: 20px;
+ 	font-weight: 600;
+ }
+
+ body.manage-guest img#user-icon {
+ 	width: 60px;
+ }
+
+ body.manage-guest div.guest-details {
+ 	margin-right: 10px;
+ 	margin-left: 10px;
+  	margin-top: 20px;
+ 	font-family:  "Segoe UI";
+ 	margin-left: 30px;
+ }
+
+ body.manage-guest div.guest-details a {
+ 	text-decoration: none;
+ 	color: #19b9c3;
+ }
+
+
+ body.manage-guest div.guest-details p.unit {
+ 	display: flex;
+ 	margin-top: -7px;
+ }
+
+  body.manage-guest div.guest-details span.field  {
+ 	color:#3c3d34;
+ 	font-weight: 600;
+ 	text-align: left;
+ 	flex: 1;
+ 	font-size: 13px;
+ }
+
+ body.manage-guest div.guest-details span.guest-data {
+  	color: #5a5b4f;
+  	flex: 2;
+  	font-size:12px;
+  }
+
+body.manage-guest div.check-out-status {
+ 	background: #f86861;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 5px;
+}
+
+ body.manage-guest input[name=check-out] {
+ 	background: #f86861;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ }
+  body.manage-guest input[name=check-out]:hover {
+  	background: #f73a31;
+  }
+
+ body.manage-guest input[name=check-in] {
+ 	background: #3cc65f;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ } 
+
+ body.manage-guest input[name=check-in]:hover {
+  	background: #2f9f4b;
+  }
+
+ body.manage-guest input[name=refresh] {
+ 	background: #b143b1;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ }
+
+  body.manage-guest input[name=refresh]:hover {
+  	background: #a73fa7;
+  }
+
+  body.manage-guest input[name=cancel] {
+ 	background: #f86861;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ }
+  body.manage-guest input[name=cancel]:hover {
+  	background: #f73a31;
+  } 
+
+  body.manage-guest input[name=undo-cancel], body.manage-guest input[name=undo-check-out]{
+ 	background: #f4d80f;
+ 	color: white;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ }
+  body.manage-guest input[name=undo-cancel]:hover,  body.manage-guest input[name=undo-check-out]:hover{
+  	background: #dfc50b;
+  }   
+
+  body.manage-guest div.reservation-unprocessed{
+ 	background: #f4d80f;
+ 	color: #fefdf1;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 5px;
+}
+
+body.manage-guest div.reservation-processed {
+ 	background: #3cc65f;
+ 	color: #fefdf1;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 5px;
+}
+
+ body.manage-guest div.reservation-cancelled {
+ 	background: #f86861;
+ 	color: #fefdf1;
+ 	border: none;
+ 	font-size: 15px;
+ 	padding: 5px;
+}
