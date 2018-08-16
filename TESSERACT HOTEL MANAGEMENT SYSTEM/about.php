@@ -47,7 +47,7 @@ $WINDOW_NAME="About";
 		<p>
 			Copyright &#169; 2016-2018 Clinton Nzedimma, Novacom Webs Nigeria. All rights reserved
 			<br>
-			Tesseract Hotel Managment System is registered under MIT licence
+			Tesseract Hotel Managment System is registered under MIT license
 		</p>
 
 		<p>
