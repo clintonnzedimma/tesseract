@@ -4,9 +4,8 @@ Hotel Management System
 
 Program Version: 1.0.0.1
 
-Copyright © 2016-2018 Clinton Nzedimma, Novacom Webs Nigeria( www.novacomng.com). All rights reserved 
-Tesseract Hotel Managment System is registered under MIT licence
-
+Copyright Â© 2016-2018 Clinton Nzedimma, Novacom Webs Nigeria( www.novacomng.com). All rights reserved 
+Tesseract Hotel Managment System is registered under MIT license
 Credits:
 
 Clinton Nzedimma - Lead Developer
@@ -25,7 +24,7 @@ Fejiro Otokutu
 Apeh Stephen
 This product uses the following components 
 
-PHPDesktop © Czarek Tomczak
+PHPDesktop Â© Czarek Tomczak
 SQLite, in public domain
 Chromium Embedded Framework licensed under the BSD 3-clause license.
 ChartJs Of MIT licence
