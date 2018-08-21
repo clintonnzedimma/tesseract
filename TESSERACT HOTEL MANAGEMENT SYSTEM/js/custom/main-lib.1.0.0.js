@@ -87,5 +87,3 @@ function encodeHTML(str) {
 	return buf.join('');
 }
 
-//var n = 848484;
-//alert(n.toLocaleString());
